@@ -1,9 +1,17 @@
 import Image from 'next/image'
 import styles from './page.module.css'
+import PageComponent from './Components/PageComponent'
+import FormsComponent from './Components/FormsComponent'
+import CardsComponent from './Components/CardsComponent'
+import GraphsComponent from './Components/GraphsComponent'
 
 export default function Home() {
   return (
     <main className={styles.main}>
+      <PageComponent />
+      <FormsComponent />
+      <CardsComponent />
+      <GraphsComponent />
       <div className={styles.description}>
         <p>
           Get started by editing&nbsp;
