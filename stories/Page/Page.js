@@ -1,6 +1,6 @@
-import styles from "./Pages.module.css";
+import styles from "./Page.css";
 
-const Pages = () => {
+const Page = () => {
   return (
     <div className={styles.pages}>
       <div className={styles.cameraDetails}>
@@ -331,4 +331,4 @@ const Pages = () => {
   );
 };
 
-export default Pages;
+export default Page;

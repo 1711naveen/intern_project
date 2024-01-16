@@ -1,0 +1,626 @@
+.vectorIcon {
+    position: relative;
+    width: 21.33px;
+    height: 21.33px;
+  }
+  .icbaselineArrowBack {
+    border-radius: var(--br-7xs);
+    background-color: var(--color-whitesmoke-100);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    padding: var(--padding-xs);
+  }
+  .cameraDetails1 {
+    color: var(--color-black);
+  }
+  .camerasCameraDetails {
+    font-weight: 500;
+  }
+  .bankEntranceFrontViewCamer,
+  .vmsCamerasContainer {
+    position: relative;
+    letter-spacing: 0.5px;
+  }
+  .bankEntranceFrontViewCamer {
+    font-size: var(--font-size-xs);
+    line-height: 24px;
+    text-transform: capitalize;
+    color: rgba(0, 0, 0, 0.47);
+  }
+  .vmsCamerasCameraDetailsParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-7xs);
+  }
+  .viewAndManage {
+    position: relative;
+    font-size: var(--font-size-sm);
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    color: var(--color-black);
+  }
+  .frameGroup,
+  .icbaselineArrowBackParent {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameGroup {
+    width: 422px;
+    flex-direction: column;
+    gap: var(--gap-xs);
+  }
+  .icbaselineArrowBackParent {
+    flex-direction: row;
+    gap: var(--gap-xl);
+  }
+  .groupChild {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-9xs);
+    background-color: var(--color-whitesmoke-200);
+    width: 97px;
+    height: 48px;
+  }
+  .filterBy {
+    position: absolute;
+    top: 14px;
+    left: 19px;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .rectangleParent {
+    position: relative;
+    width: 97px;
+    height: 48px;
+    display: none;
+    text-align: left;
+    font-size: var(--font-size-base);
+  }
+  .groupItem {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-9xs);
+    background-color: var(--color-whitesmoke-200);
+    width: 212px;
+    height: 48px;
+  }
+  .search {
+    position: absolute;
+    top: 14px;
+    left: 21px;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .rectangleGroup {
+    position: relative;
+    width: 212px;
+    height: 48px;
+    display: none;
+    text-align: left;
+    font-size: var(--font-size-base);
+  }
+  .labelText {
+    position: relative;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    font-weight: 500;
+  }
+  .button,
+  .button2,
+  .stateLayer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-3xs) var(--padding-5xl);
+  }
+  .button,
+  .button2 {
+    border-radius: var(--br-5xs);
+    border: 1.4px solid var(--color-darkslategray-100);
+    box-sizing: border-box;
+    width: 122.8px;
+    overflow: hidden;
+    flex-shrink: 0;
+    flex-direction: column;
+    padding: var(--padding-9xs) 0;
+    color: var(--color-darkslategray-100);
+  }
+  .button2 {
+    border: 1.4px solid var(--color-red);
+    color: var(--color-red);
+  }
+  .frameParent,
+  .groupParent {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .groupParent {
+    gap: var(--gap-lg);
+    text-align: center;
+    font-size: var(--font-size-sm);
+    color: var(--color-black);
+  }
+  .frameParent {
+    align-self: stretch;
+    gap: 232px;
+  }
+  .bxvideoRecordingIcon {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .viewRecordedVideos {
+    position: relative;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    font-weight: 500;
+  }
+  .bxvideoRecordingParent {
+    border-radius: var(--br-5xs);
+    background-color: var(--color-whitesmoke-100);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-xs) var(--padding-3xl);
+    gap: var(--gap-3xs);
+  }
+  .frameDiv {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xs);
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-400);
+  }
+  .groupInner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xs);
+    width: 600px;
+    height: 336.96px;
+    object-fit: cover;
+  }
+  .pm {
+    position: relative;
+    letter-spacing: 0.1px;
+    font-weight: 600;
+    white-space: pre-wrap;
+  }
+  .pmParent {
+    position: absolute;
+    top: 309px;
+    left: calc(50% - 277px);
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 360px;
+  }
+  .rectangleContainer {
+    position: relative;
+    width: 600px;
+    height: 336.96px;
+  }
+  .active,
+  .cameraDetails2 {
+    position: relative;
+    font-weight: 600;
+  }
+  .cameraDetails2 {
+    letter-spacing: 0.1px;
+    line-height: 20px;
+  }
+  .active {
+    letter-spacing: 0.5px;
+  }
+  .activeWrapper {
+    border-radius: var(--br-9xs);
+    background-color: rgba(0, 219, 74, 0.87);
+    overflow: hidden;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: var(--padding-9xs) 8px;
+    font-size: var(--font-size-xs);
+    color: var(--white-high-emphasis);
+  }
+  .cameraDetailsParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+  }
+  .coimbatore,
+  .location {
+    position: relative;
+    letter-spacing: 0.1px;
+  }
+  .location {
+    font-weight: 600;
+  }
+  .coimbatore {
+    font-size: var(--font-size-smi);
+    line-height: 20px;
+    color: var(--color-gray-300);
+  }
+  .locationParent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+    gap: var(--gap-3xs);
+  }
+  .copyUrl,
+  .delhiIndia {
+    position: relative;
+    font-size: var(--font-size-smi);
+    letter-spacing: 0.1px;
+  }
+  .delhiIndia {
+    color: var(--color-gray-300);
+  }
+  .copyUrl {
+    text-decoration: underline;
+    color: #0043c4;
+  }
+  .frameParent1 {
+    position: absolute;
+    top: 22px;
+    left: calc(50% - 195px);
+    width: 390px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 24px;
+  }
+  .frameWrapper1 {
+    position: relative;
+    border-radius: var(--br-7xs);
+    background-color: var(--white-high-emphasis);
+    border: 1px solid var(--gray-divider);
+    box-sizing: border-box;
+    width: 436px;
+    height: 337px;
+    overflow: hidden;
+    flex-shrink: 0;
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-400);
+  }
+  .groupContainer {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: var(--gap-xl);
+    font-size: var(--font-size-smi);
+    color: var(--white-high-emphasis);
+  }
+  .cameraHealthAnd {
+    position: relative;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    font-weight: 600;
+  }
+  .ifCameraIs,
+  .offlineAlert {
+    position: relative;
+    letter-spacing: 0.1px;
+  }
+  .offlineAlert {
+    font-size: var(--font-size-sm);
+    font-weight: 600;
+  }
+  .ifCameraIs {
+    color: var(--color-gray-300);
+  }
+  .minutes {
+    font-size: var(--font-size-xl);
+    font-weight: 500;
+  }
+  .emailcom,
+  .minutes,
+  .sendAnEmail {
+    position: relative;
+    letter-spacing: 0.1px;
+  }
+  .emailcom {
+    font-weight: 600;
+    color: var(--color-gray-400);
+  }
+  .sendAnEmailToParent {
+    gap: var(--gap-7xs);
+    color: var(--color-gray-300);
+  }
+  .frameWrapper3,
+  .offlineAlertParent,
+  .sendAnEmailToParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .offlineAlertParent {
+    gap: var(--gap-xs);
+  }
+  .frameWrapper3 {
+    position: absolute;
+    top: calc(50% - 63px);
+    left: calc(50% - 148px);
+    width: 297px;
+  }
+  .frameWrapper2 {
+    position: relative;
+    border-radius: var(--br-7xs);
+    background-color: var(--white-high-emphasis);
+    border: 1px solid var(--gray-divider);
+    box-sizing: border-box;
+    width: 338px;
+    height: 162px;
+    overflow: hidden;
+    flex-shrink: 0;
+    font-size: var(--font-size-smi);
+  }
+  .div {
+    font-size: 28px;
+    font-weight: 500;
+  }
+  .cheersThisCamera,
+  .div,
+  .gradeA {
+    position: relative;
+    letter-spacing: 0.1px;
+  }
+  .cheersThisCamera {
+    line-height: 18px;
+    display: flex;
+    align-items: center;
+    width: 244px;
+  }
+  .gradeA {
+    font-weight: 600;
+    color: #4caf50;
+  }
+  .cheersThisCameraHadNoOffParent,
+  .frameWrapper5 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .cheersThisCameraHadNoOffParent {
+    gap: var(--gap-7xs);
+    font-size: var(--font-size-smi);
+    color: var(--color-gray-300);
+  }
+  .frameWrapper5 {
+    position: absolute;
+    top: calc(50% - 65px);
+    left: 21px;
+    width: 297px;
+  }
+  .frameWrapper4 {
+    position: relative;
+    border-radius: var(--br-7xs);
+    background-color: var(--white-high-emphasis);
+    border: 1px solid var(--gray-divider);
+    box-sizing: border-box;
+    width: 338px;
+    height: 162px;
+    overflow: hidden;
+    flex-shrink: 0;
+  }
+  .today0437PmActivatedParent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 8px;
+    font-size: var(--font-size-smi);
+    color: var(--color-gray-300);
+  }
+  .frameWrapper7 {
+    position: absolute;
+    bottom: 11px;
+    left: calc(50% - 148px);
+    width: 297px;
+    flex-direction: column;
+  }
+  .cameraHealthAndAlertParent,
+  .frameParent4,
+  .frameWrapper7 {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameParent4 {
+    flex-direction: row;
+    gap: var(--gap-xl);
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-400);
+  }
+  .cameraHealthAndAlertParent {
+    flex-direction: column;
+    gap: var(--gap-lg);
+  }
+  .viewAll {
+    position: relative;
+    font-size: var(--font-size-base);
+    text-decoration: underline;
+    letter-spacing: 0.5px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #3c3c3c;
+  }
+  .recentRecordingsParent {
+    align-self: stretch;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+  .rectangleIcon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: var(--br-xs);
+    width: 230px;
+    height: 167.67px;
+    object-fit: cover;
+  }
+  .groupIcon {
+    position: absolute;
+    top: 68.33px;
+    left: 99px;
+    width: 32px;
+    height: 32px;
+  }
+  .groupChild1,
+  .rectangleDiv {
+    position: absolute;
+    top: 13.97px;
+    left: 0;
+    border-radius: var(--br-xs);
+    background-color: var(--color-darkgray);
+    width: 218.61px;
+    height: 5.59px;
+    display: none;
+  }
+  .groupChild1 {
+    background-color: var(--color-gray-200);
+    width: 16.27px;
+  }
+  .span {
+    color: var(--color-gray-100);
+  }
+  .div1 {
+    position: absolute;
+    top: 0;
+    left: 2.71px;
+    letter-spacing: 0.1px;
+    line-height: 20px;
+    font-weight: 500;
+    display: none;
+    width: 39.06px;
+    height: 11.18px;
+  }
+  .rectangleParent1 {
+    position: absolute;
+    top: 137.49px;
+    left: 5.97px;
+    width: 0;
+    height: 0;
+  }
+  .groupDiv {
+    position: relative;
+    width: 230px;
+    height: 167.67px;
+  }
+  .today0442Pm {
+    position: relative;
+    font-size: var(--font-size-xs);
+    letter-spacing: 0.1px;
+    color: var(--color-gray-300);
+  }
+  .groupParent1,
+  .recording0121Parent {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+  .recording0121Parent {
+    justify-content: flex-start;
+    gap: var(--gap-7xs);
+    font-size: var(--font-size-sm);
+    color: var(--color-gray-400);
+  }
+  .groupParent1 {
+    border-radius: var(--br-9xs);
+    border: 1px solid var(--gray-divider);
+    justify-content: flex-end;
+    padding: var(--padding-xs);
+    gap: var(--gap-3xs);
+  }
+  .frameContainer,
+  .frameParent6,
+  .frameWrapper {
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+  }
+  .frameParent6 {
+    flex-direction: row;
+    gap: var(--gap-xs);
+    font-size: var(--font-size-smi);
+    color: var(--color-dimgray);
+  }
+  .frameContainer,
+  .frameWrapper {
+    flex-direction: column;
+  }
+  .frameContainer {
+    gap: 32px;
+  }
+  .frameWrapper {
+    position: absolute;
+    top: 35px;
+    left: calc(50% - 528px);
+  }
+  .cameraDetailsInner {
+    position: relative;
+    border-radius: var(--br-9xs);
+    background-color: var(--white-high-emphasis);
+    border: 1px solid var(--gray-divider);
+    box-sizing: border-box;
+    width: 1102px;
+    height: 1047px;
+    overflow: hidden;
+    flex-shrink: 0;
+    font-size: var(--font-size-xl);
+    color: var(--color-black);
+  }
+  .cameraDetails {
+    position: absolute;
+    top: 76px;
+    left: 162px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 36px;
+  }
+  .pages {
+    position: relative;
+    background-color: #fbfcfd;
+    width: 100%;
+    height: 1344px;
+    overflow: hidden;
+    text-align: left;
+    font-size: 36px;
+    color: var(--color-gray-400);
+    font-family: var(--font-roboto);
+  }
+  
