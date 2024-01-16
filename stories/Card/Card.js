@@ -1,52 +1,50 @@
-import React from 'react'
 import './Card.css'
+import 'C:/Users/ynnav/OneDrive/Documents/nextjs/Project/intern_project/node_modules/bootstrap/dist/css/bootstrap.css'
 
 const Card = () => {
     return (
-        <div class="box">
-            <div class="card" style={{width: "340px" ,height:"412px"}}>
-                <img src="./ffb7b894757284ab45e7f7045ffd1997.png" class="card-img-top" style={{width: "340px", height:"240.57px"}} alt="..." />
+        <>
+            <div className="outerbox mx-5">
+                <div className="card" style={{ height: "412px", width: "340px" }}>
+                    <img src="" className="card-img-top" alt="..." width="340" height="240" />
+                    <div className="card-body">
+                        <b><h5 className="card-title" style={{ fontSize: "16px" }}>Bank Entrance-front-view Camera1</h5></b>
+                        <div className="container" style={{ fontSize: "13px" }}>
+                            <div className="container p-2"  >
+                                <img src="" alt="" />
+                                3 Recipes Added
+                            </div>
+                            <div className="container p-2">
+                                <img src="" alt="" />
+                                today, 04:45pm: Unidentified face detected
+                            </div>
+                            <div className="container p-2">
+                                <img src="" alt="" />
+                                Coimbatore branch
+                            </div>
+                        </div>
+                        <div className="box1">
+                            <button type="button" className="btn btn-success btn-sm m-2">Active</button>
+                            <img src="material-symbols_delete-outline.png" alt="" width="12" height="12" />
+                            <img src="" alt="" />
+                            <img src="" alt="" />
+                        </div>
 
-                <div class="card-body">
-                    <div class="container mt-2">
-                        <div class="text">
-                            Bank Entrance-front-view Camera1
-                        </div>
-                        <div class="recepi">
-                            <img src="./carbon_task-tools.svg" alt="" srcset="" />
-                            3 Recipes Added
-                        </div>
-                        <div class="today">
-                            <img src="./fluent_clipboard-error-16-regular.svg" alt="" srcset="" />
-                            today, 04:45pm: Unidentified face detected
-                        </div>
-                        <div class="branch">
-                            <img src="./tdesign_location.svg" alt="" srcset="" />
-                            Coimbatore branch
-                        </div>
                     </div>
-
-                    <div class="fott">
-                        <button type="button" class="btn btn-success">Active</button>
-                        <img src="./material-symbols_delete-outline.svg" alt="" />
-                        <img src="./bx_video-recording.svg" alt="" />
-                        <img src="./mdi_graph-box.svg" alt="" />
-                    </div>
-
                 </div>
-            </div>
-            <div class="cardBox mt-3">
-                <div class="container">
-                    <div class="clipboard">
-                        <img src="./fluent_clipboard-task-add-24-regular.svg" alt="" />
-                    </div>
-                    <div class="textmanag">
+
+                <div className="card2 mx-5">
+                    <img src='/fluent_clipboard-task-add-24-regular.svg' alt="" width="48" height="48" />
+                    <div className="recipe">
                         Recipe Management
                     </div>
+                    <div className="coner">
+                        Manage
+                    </div>
                 </div>
             </div>
-        </div>
 
+        </>
     )
 }
 
