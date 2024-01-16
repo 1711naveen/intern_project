@@ -1,6 +1,7 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import Pages from './Components/page/Pages'
+import Tables from './Components/Table/Tables'
 
 export default function Home() {
   return (
@@ -9,6 +10,7 @@ export default function Home() {
         <h1>hello</h1>
       </div>
       <Pages />
+      <Tables/>
     </main>
   )
 }
