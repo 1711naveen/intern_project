@@ -1,0 +1,82 @@
+.box{
+    display: flex;
+width: 1512px;
+padding: 285px 286px 285px 285px;
+justify-content: center;
+align-items: center;
+gap: 253px;
+width: 340px;
+height: 412px;
+flex-shrink: 0;
+}
+
+.text{
+    color: #000;
+font-family: Roboto;
+font-size: 16px;
+font-style: normal;
+font-weight: 500;
+line-height: 20px; /* 125% */
+letter-spacing: 0.1px;
+}
+
+.recepi{
+    color: #757575;
+font-family: Roboto;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 153.846% */
+letter-spacing: 0.1px;
+}
+
+.today{
+    color: #757575;
+font-family: Roboto;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.1px;
+}
+
+.branch{
+    color: #757575;
+font-family: Roboto;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: 0.1px;
+}
+
+.fott{
+    display: flex;
+justify-content: space-between;
+align-items: flex-start;
+align-self: stretch;
+}
+
+.cardBox{
+    width: 348px;
+height: 140px;
+flex-shrink: 0;
+border-radius: 12px;
+border: 1px solid var(--Gray-Divider, #E5E5E5);
+background: var(--White-High-Emphasis, #FFF);
+}
+
+.clipboard{
+    width: 48px;
+height: 48px;
+flex-shrink: 0;
+}
+
+.textmanag{
+    color: #656565;
+font-family: Roboto;
+font-size: 24px;
+font-style: normal;
+font-weight: 400;
+line-height: 36px; /* 150% */
+}
