@@ -23,7 +23,7 @@ const Form = () => {
                 <input type="email" className="form-control" placeholder='Your Name' size="57" />
               </div>
               <div >
-                <input type="password" className="form-control" id="exampleInputPassword1" placeholder='Company Name' size="57" />
+                <input  className="form-control" placeholder='Company Name' size="57" />
               </div>
 
               <select className="form-select" aria-label="Default select example">
